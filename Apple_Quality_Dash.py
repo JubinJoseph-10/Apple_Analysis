@@ -12,7 +12,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(layout='wide',initial_sidebar_state='collapsed')
 
 #reading the dataset
-apple_data = pd.read_excel("Data/Dataset (Apple Fruit Quantity).xlsx",sheet_name='Dataset')
+apple_data = pd.read_csv("Data/Dataset (Apple Fruit Quantity).csv")
 #dropping the last row which had the author source
 apple_data.dropna(inplace=True)
 apple_data['Quality'].replace({'good':1,'bad':0},inplace=True)
