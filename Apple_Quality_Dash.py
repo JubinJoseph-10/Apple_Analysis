@@ -8,7 +8,9 @@ import seaborn as sns
 from scipy.stats import shapiro
 from scipy.stats import ttest_ind
 
+#shuhsing the error prompt
 st.set_option('deprecation.showPyplotGlobalUse', False)
+#setting the page title and also the main icon
 st.set_page_config(
    page_title="Apple Quality Analysis",
    page_icon="🍎",
