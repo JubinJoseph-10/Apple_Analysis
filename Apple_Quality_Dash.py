@@ -10,7 +10,7 @@ from scipy.stats import ttest_ind
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(
-   page_title="Apple Quality Ananlysis",
+   page_title="Apple Quality Analysis",
    page_icon="🍎",
    layout="wide",
    initial_sidebar_state="collapsed",
