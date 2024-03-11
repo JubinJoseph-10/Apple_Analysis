@@ -9,7 +9,12 @@ from scipy.stats import shapiro
 from scipy.stats import ttest_ind
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(layout='wide',initial_sidebar_state='collapsed')
+st.set_page_config(
+   page_title="Apple Quality Ananlysis",
+   page_icon="🍎",
+   layout="wide",
+   initial_sidebar_state="collapsed",
+)
 
 #reading the dataset
 apple_data = pd.read_csv("Data/Dataset (Apple Fruit Quantity).csv")
