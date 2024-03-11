@@ -12,7 +12,7 @@ from scipy.stats import ttest_ind
 st.set_option('deprecation.showPyplotGlobalUse', False)
 #setting the page title and also the main icon
 st.set_page_config(
-   #page_title="Apple Quality Analysis",
+   page_title="Apple Quality Analysis",
    page_icon="🍎",
    layout="wide",
    initial_sidebar_state="collapsed",
